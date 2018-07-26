@@ -150,7 +150,7 @@ DEPENDENCIES
   middleman (~> 3.4)
   middleman-autoprefixer
   middleman-deploy (~> 1.0)
-  middleman-gibberish
+  middleman-gibberish (~> 0.7.0)
 
 BUNDLED WITH
    1.16.2

@@ -11,4 +11,3 @@ gem 'bootstrap-sass', '3.3.6'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'middleman-autoprefixer'
 
-gem 'middleman-gibberish'

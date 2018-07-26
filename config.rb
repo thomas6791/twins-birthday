@@ -10,30 +10,6 @@
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
 
-# activate the extenstion
-
-  activate :gibberish do |gibberish|
-  # set the default password
-
-    gibberish.password = 'thomas'
-
-  # encrypt a page with the default password
-
-    gibberish.encrypt 'index.html'
-
-  # encrypt a page with a different password
-
-    gibberish.encrypt 'julie.html', 'p@55w0rd'
-
-  # encrypt at set of pages with the default password
-
-    gibberish.encrypt 'seKrit/**/**'
-
-  # encrypt at set of pages with a different password
-
-    gibberish.encrypt 'kayne/**/**', 'i can hold my liquor'
-  end
-
 ###
 # Page options, layouts, aliases and proxies
 ###
