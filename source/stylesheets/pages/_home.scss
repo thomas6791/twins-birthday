@@ -1,16 +1,40 @@
+#julie {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-height: 100vh;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-image: linear-gradient(-180deg, rgba(252,88,60,0.53) 0%, #C23232 100%);
+    border-radius: 5px;
+}
 #name {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100px;
-  p { border: solid 0.5px ; margin: 0px; width: 100%; }
+  p { border: solid 0.5px ; margin: 0px; width: 100%; padding: 0px; }
   .first { margin-right: 15px; }
   .second { margin-left: 15px; }
-  h1 { font-family: 'Playfair Display', serif;
+  h1 { font-family: 'Lobster', cursive;
     margin: 0px;
     padding: 0px;
     height: 60px;
     line-height: 50px;
+    font-size: 3em;
+  }
+}
+.content {
+  font-size: 1.5em;
+  margin-left: 20px;
+  margin-right: 20px;
+  p { margin-top: 30px; margin-bottom: 30px; font-family: 'Varela Round', sans-serif; }
+  .signature { text-align: right; }
+}
+@media screen and (max-width: 640px) {
+  #julie {
+    width: 90%;
   }
 }
 
