@@ -9,6 +9,17 @@
     background-image: linear-gradient(-180deg, rgba(252,88,60,0.53) 0%, #C23232 100%);
     border-radius: 5px;
 }
+#marie {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  min-height: 100vh;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-image: linear-gradient(-180deg, rgba(187,242,255,0.53) 0%, #137A93 100%);
+  border-radius: 5px;
+}
 #name {
   display: flex;
   justify-content: center;
@@ -31,6 +42,7 @@
   margin-right: 20px;
   p { margin-top: 30px; margin-bottom: 30px; font-family: 'Varela Round', sans-serif; }
   .signature { text-align: right; }
+  .joyeux { font-size: 1.5em; text-align: center; }
 }
 @media screen and (max-width: 640px) {
   #julie {
